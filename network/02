@@ -1,1 +1,5 @@
 ipconfig getifaddr en0
+
+# getifaddr interface-name
+# Выводит в стандартный поток вывода IP адрес для первого сетевого сервиса, связанного с данным интерфейсом.
+# en0 (ethernet), en1 (wifi)
