@@ -1,0 +1,6 @@
+
+
+# Reverse DNS переводит доменное имя в IP-адрес. И она же разрешает IP-адресу вернуться к доменному имени. 
+# nslookup "$(ipconfig getifaddr en0)"
+# или
+# host "$(ipconfig getifaddr en0)"
