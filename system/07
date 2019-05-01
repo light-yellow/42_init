@@ -1,0 +1,6 @@
+cat /var/run/sshd.pid
+
+# SSHD значит "SSH Daemon" или "SSH Server"
+# ssh: client
+# sshd: server
+# PID - 
