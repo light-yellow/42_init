@@ -1,0 +1,6 @@
+networksetup -getmacaddress Wi-Fi
+networksetup -getmacaddress en1
+
+# MAC-адрес (Media Access Control) — уникальный идентификатор, присваиваемый каждой единице 
+# активного оборудования или некоторым их интерфейсам в компьютерных сетях Ethernet.
+# networksetup - менеджер сетевых настроек
