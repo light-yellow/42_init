@@ -1,5 +1,9 @@
-ipconfig getifaddr en0
+echo "Broadcast address:"
+ifconfig en0 | grep 'broadcast' | awk '{print $6}'
 
-# getifaddr interface-name
-# Выводит в стандартный поток вывода IP адрес для первого сетевого сервиса, связанного с данным интерфейсом.
-# en0 (ethernet), en1 (wifi)
+echo "IP adresses which are part of the same subnet:"
+arp -a
+
+# ARP (Address Resolution Protocol — протокол определения адреса) — протокол, предназначенный для преобразования IP-адресов в MAC-адреса. 
+# ARP-таблица отображает IP и MAC подключенных к серверу сетевых устройств.
+# arp -a отображает содержимое таблицы.
