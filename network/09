@@ -1,0 +1,5 @@
+163.172.250.11
+163.172.250.12
+163.172.250.13
+
+# nslookup slash16.org | grep 'Address' | sed 1d | awk '{print $2}'
