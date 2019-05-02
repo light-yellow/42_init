@@ -1,6 +1,5 @@
 AWS (Amazon)
 
-# whois slash16.org
-# whois slash16.org | grep 'Name Server:' | awk '{print $3}'
+# whois slash16.org | grep 'Name Server:'
 # WHOIS (от англ. who is — «кто это?») — сетевой протокол, основное применение которого — 
 # получение регистрационных данных о владельцах доменных имён, IP-адресов и автономных систем.
