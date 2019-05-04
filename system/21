@@ -1,0 +1,3 @@
+
+
+# Human users have UIDs starting at 1000, so you can use that fact to filter out the non-humans
