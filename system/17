@@ -1,0 +1,3 @@
+ssh -p PORT USERNAME@HOST
+ssh root@localhost
+#ssh user@ip -p port
