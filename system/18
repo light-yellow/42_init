@@ -1,1 +1,2 @@
 service ssh stop
+pkill sshd
