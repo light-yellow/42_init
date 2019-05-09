@@ -2,5 +2,5 @@
 
 read -p "Which active user would you like to delete? " username
 pkill -u $username
-sudo userdel -r $username
-rm -rf /home/$username
+sudo userdel -rf $username
+# rm -rf /home/$username
