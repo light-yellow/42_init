@@ -1,8 +1,10 @@
 #!/bin/sh
 
 read -p "Which active user would you like to delete? " username
-pkill -u $username
-sudo userdel -rf $username
+if [ username != "root" ] ; then 
+  pkill -u $username
+  sudo userdel -rf $username
+fi
 # rm -rf /home/$username
 
 # userdel - удаляет регистрационное имя пользователя из системы
