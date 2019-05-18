@@ -7,6 +7,5 @@ do
   do
     echo '$nline: $line'
     nline='$($nline + 1)'
-  done
+  done < $filename
 done
-exit 0
