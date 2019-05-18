@@ -5,3 +5,7 @@ ssh root@server_ip_address
 
 Create a new user account using the adduser command. like this adduser username, make password. And then add this new user to the sudo group
 sudo su - username
+
+
+Graphic session: log in with your username and password
+SSH session: run ssh user@<ip-address-or-hostname> and enter your password
