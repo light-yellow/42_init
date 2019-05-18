@@ -1,28 +1,5 @@
-авторизоваться с логином и паролем (??)
-Log in to your server.
-Log in to your system as the root user:
-ssh root@server_ip_address
+Авторизация c ssh session:
+ssh <username>@<ipaddress> -p <port_number>
 
-Create a new user account using the adduser command. like this adduser username, make password. And then add this new user to the sudo group
-sudo su - username
-
-
-Graphic session: log in with your username and password
-SSH session: run ssh user@<ip-address-or-hostname> and enter your password
-
-1) Switch Users Graphical Session:
-
-	- Press the most top right down facing arrow icon (in the very top right corner)
-	- Then under 'Wired Connected', press the name of the current user
-	- Then within the options that pop down, press 'Switch User'
-	- Then once out of the current session, select different user, enter password
-	  in the password box and finally press 'Sign in' (or 'Unlock' (or 'Enter'))
-
-2) Switch User SSH Session:
-
-	- Logout of current session if already in one, using the 'Logout' command;
-	  (else skip this step if not already in a session)
-	- Type in the following command: 'ssh <username>@<ipaddress> -p <port_number>'
-	  in the terminal; (and you should be in the user's account).
-
-PS: by changing the <username> field you basically switch user.
+Авторизация с graphic session: 
+Выбрать в меню 'Switch User', выбрать пользователя и ввести пароль.
