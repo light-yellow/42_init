@@ -1,9 +1,9 @@
 broadcast_address=$(ifconfig en0 | grep 'broadcast' | awk '{print $6}')
 echo "Broadcast address:"
 echo $broadcast_address
-
+echo "IP adresses in the same subnet:"
 ping -c 2 $broadcast_address > /dev/null
-arp -a | grep "21-school" | awk -F "[()]" '{print $2}'
+arp -a | awk -F "[()]" '{print $2}'
 
 # PING означает Packet InterNet Groper. Утилита или программа для определения того, доступен ли конкретный IP-адрес
 # из вашей сети или хост / сервер. Утилита Ping обычно используется для проверки сетевых ошибок и диагностики этой проблемы.
