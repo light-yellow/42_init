@@ -1,4 +1,4 @@
-networksetup -getmacaddress en1
+networksetup -getmacaddress en1 | awk '{print $3}'
 
 # MAC-адрес (Media Access Control) — уникальный идентификатор, присваиваемый каждой единице 
 # активного оборудования или некоторым их интерфейсам в компьютерных сетях Ethernet.
