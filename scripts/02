@@ -1,11 +1,6 @@
 #!/bin/sh
 
-read -p "Which active user would you like to delete? " username
-if [ username != "root" ] ; then 
-  pkill -u $username
-  sudo userdel -rf $username
-fi
-# rm -rf /home/$username
+userdel -rf $1
 
 # userdel - удаляет регистрационное имя пользователя из системы
 # -r - удаление домашнего каталога пользователя и почтового ящика
