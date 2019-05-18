@@ -9,3 +9,7 @@ do
     nline="$(( $nline + 1 ))"
   done < $filename
 done
+
+
+# IFS stands for "internal field separator". It is used by the shell to determine how to do word splitting, i. e. how to recognize word boundaries.
+# The default value for IFS consists of whitespace characters (space, tab and newline). 
