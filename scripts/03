@@ -6,6 +6,6 @@ do
   while IFS="\n" read line
   do
     echo "$nline: $line"
-    nline='$(( $nline + 1 ))'
+    nline="$(( $nline + 1 ))"
   done < $filename
 done
