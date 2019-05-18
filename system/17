@@ -1,3 +1,1 @@
-ssh -p PORT USERNAME@HOST
-ssh root@localhost
-#ssh user@ip -p port
+ssh <username>@127.0.01
